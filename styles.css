@@ -1,0 +1,177 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-inline: auto;
+    padding-inline: 1.5rem;
+    max-width: 72rem;
+}
+
+
+/* Shared styles */
+
+header, .hero, footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.hero-description, a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+/* Header section */
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+
+/* Hero section */
+
+.hero {
+    padding-block: 5rem;
+}
+
+.hero-content {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.hero-image {
+    width: 50%;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    margin-block: 0;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+
+/* About section */
+
+.about-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.about-content {
+    text-align: center;
+    padding-block: 1rem;
+}
+
+.about-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.about-card, .about-image {
+    width: 180px;
+}
+
+.about-image {
+    height: 180px;
+    border-radius: 0.5rem;
+}
+
+
+/* Quote section */
+
+.quote {
+    background-color: #E5E7EB;
+    padding-block: 5rem;
+}
+
+.quote-content {
+    padding-inline: 10rem;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: right;
+}
+
+
+/* Call to action section */
+
+.call-to-action-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 2rem 6rem;
+    margin: 7rem 5rem;
+    border-radius: 0.5rem;
+}
+
+.call-to-action-text {
+    color: #F9FAF8;
+}
+
+.call-to-action-title {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.call-to-action-button {
+    border: 1px solid #F9FAF8;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+/* Footer section */
+
+footer {
+    text-align: center;
+    padding-block: 1rem;
+}
+
+
+/* General section */
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
