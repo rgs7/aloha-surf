@@ -10,4 +10,4 @@ A small static site built to practice **HTML** and **CSS**.
 - `styles.css` — layout and styling
 - `images/` — assets used on the page
 
-🌐 Live site: [rgs7.github.io/aloha-surf](https://rgs7.github.io/aloha-surf/)
+🌐 Live site: [Aloha Surf](https://rgs7.github.io/aloha-surf/)
